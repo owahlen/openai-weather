@@ -1,0 +1,4 @@
+### GET weather info for New York
+GET http://localhost:3000/weather?latitude=40.7128&longitude=-74.0060
+
+###

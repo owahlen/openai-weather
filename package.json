@@ -1,0 +1,28 @@
+{
+  "name": "openai-weather-function-example",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc && tsc-alias",
+    "prestart:server": "npm run build",
+    "prestart:client": "npm run build",
+    "start:server": "node dist/server.js",
+    "start:client": "node dist/client.js",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.98.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "@types/node": "^22.15.17",
+    "@types/express": "^5.0.1",
+    "@types/node-fetch": "^3.0.3",
+    "rimraf": "^6.0.1"
+  }
+}
