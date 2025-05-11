@@ -1,6 +1,7 @@
-# 🌦️ OpenAI Weather API with Express and Tool Calling
+# 🌦️ OpenAI Function Calling with Weather API
 
-This project demonstrates how to connect OpenAI's function calling (tool calling)
+This project demonstrates how to connect OpenAI's 
+[function calling](https://platform.openai.com/docs/guides/function-calling)
 feature to a local Express-based weather API using TypeScript.
 
 ## 🧰 Features
