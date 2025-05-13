@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "tsc && tsc-alias",
+    "build": "tsc",
     "prestart:server": "npm run build",
     "prestart:client": "npm run build",
     "start:server": "node dist/server.js",
